@@ -12,19 +12,23 @@ function MainPage(){
     return (
         <main>
 
-            <div class= "color_main">
+            <nav class= "color_main">
                 <img alt='logo' src={img1}></img>
-                <img alt='menu' src={img2}></img>
+                <img class="nav_img" alt='menu' src={img2}></img>
+            </nav>
+
+            <div class="text_main">
+                <h2>Say hello to ReactJS</h2>
+                <p>You will learn how to use <br></br>
+                the most popular frontend library,<br></br>
+                and become a super Ninja developer.</p>
+                <button> Awesome! </button>
             </div>
+            
 
-            <h2>Say hello to ReactJS</h2>
-            <h5>You will learn how to use
-            the most popular frontend library,
-            and become a super Ninja developer.</h5>
+           
 
-            <button> Awesome! </button>
-
-            <section>
+            <section class="topics">
             <div>
                 <img alt='img1' src={img3}></img>
                 <h4>Declarative</h4>
